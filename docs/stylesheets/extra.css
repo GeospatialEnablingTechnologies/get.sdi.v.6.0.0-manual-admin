@@ -9,6 +9,7 @@
 
 [data-md-color-accent="custom"] {
   --md-accent-fg-color: #24292F;
+  --md-typeset-a-color: #0F4F5F;
 }
 
 [data-md-color-scheme="slate"][data-md-color-primary="custom"] {
@@ -21,6 +22,7 @@
 }
 [data-md-color-scheme="slate"][data-md-color-accent="custom"] {
   --md-accent-fg-color: #C9D1D9;
+  --md-typeset-a-color: #6FA3AF;
 }
 
 

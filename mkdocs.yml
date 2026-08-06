@@ -63,3 +63,5 @@ plugins:
 
 nav:
   - Home: index.md
+  - Access:
+    - Logging in: ./acces/login.md 
