@@ -1,6 +1,6 @@
-# get.sdi.v.6.0.0-manual
+# get.sdi.v.6.0.0-manual-admin
 
-Manual page for GET SDI v6.0. Built with MkDocs + Material for MkDocs.
+Admin manual page for GET SDI v6.0. Built with MkDocs + Material for MkDocs.
 
 ## Development (Dev Container)
 

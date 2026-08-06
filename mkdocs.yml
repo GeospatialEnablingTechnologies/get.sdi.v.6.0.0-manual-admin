@@ -1,10 +1,10 @@
-site_name: GET SDI Portal Manual
-site_description: GET SDI Portal v6.2.0 Manual
+site_name: GET SDI Portal Admin Manual
+site_description: GET SDI Portal v6.2.0 Admin Manual
 
 theme:
   name: material
   language: en
-  logo: assets/logo.png
+  logo: assets/logo_colored.png
   favicon: assets/favicon.ico
 
   palette:
@@ -63,19 +63,3 @@ plugins:
 
 nav:
   - Home: index.md
-  - Map:
-    - Overview: map/index.md
-    - Sidebar: map/sidebar.md
-    - Toolbar: map/toolbar.md
-    - Attribute Table: map/attribute-table.md
-    - Right Click: map/right-click.md
-    - Export and Import: map/export-import.md
-  - Dashboard:
-    - Overview: dashboard/index.md
-    - Chart Types: dashboard/chart-types.md
-    - Standard Dashboard: dashboard/standard-dashboard.md
-    - Map Dashboard: dashboard/map-dashboard.md
-  - Files:
-    - Overview: files/index.md
-    - File Types: files/file-types.md
-
