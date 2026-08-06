@@ -64,4 +64,5 @@ plugins:
 nav:
   - Home: index.md
   - Access:
-    - Log In: access/log-in.md 
+    - Log In: access/log-in.md
+    - Forgot Password: access/forgot-password.md
