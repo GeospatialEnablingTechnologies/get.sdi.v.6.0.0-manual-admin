@@ -69,5 +69,5 @@ nav:
     - Two-Factor Authentication: access/two-factor-authentication.md
   - User:
     - User Management: user/user-management.md
-    - User Settings: user/index.md
+    - User Settings: user/user-settings.md
     - User Permissions: user/index.md
