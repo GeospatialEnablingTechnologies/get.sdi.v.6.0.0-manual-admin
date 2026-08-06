@@ -67,3 +67,7 @@ nav:
     - Log In: access/log-in.md
     - Forgot Password: access/forgot-password.md
     - Two-Factor Authentication: access/two-factor-authentication.md
+  - User:
+    - User Management: user/user-management.md
+    - User Settings: user/index.md
+    - User Permissions: user/index.md
