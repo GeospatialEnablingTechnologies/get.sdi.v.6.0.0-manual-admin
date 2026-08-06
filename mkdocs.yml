@@ -66,3 +66,4 @@ nav:
   - Access:
     - Log In: access/log-in.md
     - Forgot Password: access/forgot-password.md
+    - Two-Factor Authentication: access/two-factor-authentication.md
