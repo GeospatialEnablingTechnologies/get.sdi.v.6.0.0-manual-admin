@@ -64,10 +64,11 @@ plugins:
 nav:
   - Home: index.md
   - Access:
-    - Log In: access/log-in.md
+    - Login: access/log-in.md
     - Forgot Password: access/forgot-password.md
     - Two-Factor Authentication: access/two-factor-authentication.md
   - User:
     - User Management: user/user-management.md
     - User Settings: user/user-settings.md
-    - User Permissions: user/index.md
+  - Geoserver:
+    - Geoserver Management: geoserver/geoserver-management.md

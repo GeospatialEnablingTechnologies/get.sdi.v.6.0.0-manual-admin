@@ -1,6 +1,6 @@
 # Forgot Password
 
-If you have forgotten your password on the [Log In](log-in.md) form, click the **Forgot Password** link. You are taken to a new page with a form to enter your email.
+If you have forgotten your password on the [Login](log-in.md) form, click the **Forgot Password** link. You are taken to a new page with a form to enter your email.
 
 1. Enter your **Email** and submit the form.
 2. If the email is valid, a password reset link is sent to your email account.

@@ -17,7 +17,7 @@ A superadmin can create a user by clicking the **Create** button at the top righ
 
 !!! note "Verification and first login"
 
-    Newly created users are automatically **unverified**. A verification email is sent to their registered account with a verification link. Clicking the link verifies the user and allows them to [log in](log-in.md) to the platform. After verification, the user should set their password by following the [Forgot Password](forgot-password.md) process.
+    Newly created users are automatically **unverified**. A verification email is sent to their registered account with a verification link. Clicking the link verifies the user and allows them to [Login](log-in.md) to the platform. After verification, the user should set their password by following the [Forgot Password](forgot-password.md) process.
 
 ![Verification Email](../assets/images/user/user-management-verification-email.png)
 
@@ -43,7 +43,7 @@ Clicking the **Preview** action opens a drawer displaying the user's name and su
 
 | Icon | Status | Description |
 | :---: | :--- | :--- |
-| ![Verified icon](../assets/icons/shield.png) | **Verified** | The user has confirmed their account and can log in. |
+| ![Verified icon](../assets/icons/shield.png) | **Verified** | The user has confirmed their account and can Login. |
 | ![Unverified icon](../assets/icons/shield-off.png) | **Unverified** | The user has not yet confirmed their account. |
 
 ![User Preview Drawer](../assets/images/user/user-management-preview-drawer.png)
