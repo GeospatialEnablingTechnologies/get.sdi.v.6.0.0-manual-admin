@@ -24,7 +24,7 @@ theme:
         name: Switch to light mode
 
   font:
-    text: Inter
+    text: Open Sans,Arial,sans-serif
     code: JetBrains Mono
 
   features:
@@ -64,4 +64,4 @@ plugins:
 nav:
   - Home: index.md
   - Access:
-    - Logging in: ./acces/login.md 
+    - Log In: access/log-in.md 
