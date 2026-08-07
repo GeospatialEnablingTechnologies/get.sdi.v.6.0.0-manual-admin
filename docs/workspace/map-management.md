@@ -24,14 +24,14 @@ Each map in the list provides a set of available actions:
 
 | Icon | Action | Description |
 | :---: | :--- | :--- |
-| ![Edit icon](../assets/icons/pencil.png) | **[Edit](#edit)** | Modify the map's details. |
+| ![Edit icon](../assets/icons/pencil.png) | **[Edit](#edit-map)** | Modify the map's details. |
 | ![Settings icon](../assets/icons/settings.png) | **[Settings](#settings)** | Configure the map's settings. |
 | ![Map events icon](../assets/icons/mouse-pointer-click.png) | **[Map Events](#map-events)** | Configure the map's events. |
 | ![Excerpt print icon](../assets/icons/printer.png) | **[Excerpt Print Configuration](#excerpt-print-configuration)** | Configure the map's excerpt print output. |
-| ![Preview icon](../assets/icons/eye.png) | **[Preview](#preview)** | Preview the map. |
-| ![Delete icon](../assets/icons/trash-2.png) | **[Delete](#delete)** | Permanently remove the map from the workspace. |
+| ![Preview icon](../assets/icons/eye.png) | **[Preview](#preview-map)** | Preview the map. |
+| ![Delete icon](../assets/icons/trash-2.png) | **[Delete](#delete-map)** | Permanently remove the map from the workspace. |
 
-### Edit
+### Edit Map
 
 The **Edit** action opens the edit map form, where you can change the map's **Name** and **Description** (in all required languages) and its **Visibility** (*Public* or *Private*).
 
@@ -55,7 +55,7 @@ The key difference is a **Save** icon next to the map [export and import configu
     The saved configuration is the one every user sees when they load the map, whether from the front page or the administration page.
 
 ![Map Editor](../assets/images/workspace/map-management-settings-editor.png)
- 
+
 ### Map Events
 
 The **Map Events** action configures the [right-click map events](https://geospatialenablingtechnologies.github.io/get.sdi.v.6.0.0-manual/map/right-click/) available on the map. Clicking it opens the map events drawer, which lists all events configured for the map, each showing its **name** and the **GeoServer layer** it corresponds to.
@@ -128,8 +128,8 @@ Each entry in the map events drawer provides the following actions:
 
 | Icon | Action | Description |
 | :---: | :--- | :--- |
-| ![Edit icon](../assets/icons/pencil.png) | **[Edit](#edit-event)** | Modify the map event's configuration. |
-| ![Delete icon](../assets/icons/trash-2.png) | **[Delete](#delete-event)** | Permanently remove the map event from the map. |
+| ![Edit icon](../assets/icons/pencil.png) | **[Edit](#edit-map-event)** | Modify the map event's configuration. |
+| ![Delete icon](../assets/icons/trash-2.png) | **[Delete](#delete-map-event)** | Permanently remove the map event from the map. |
 
 ##### Edit Map Event
 
@@ -170,7 +170,7 @@ The **Registered** tab lets you select from the available registered [GeoServers
 
 !!! note
 
-    As with map events, layer access for registered GeoServers is role-based, you only see the layers permitted by the GeoServer assigned to your account and your role on that GeoServer.
+    As with map events, layer access for registered GeoServers is role-based — you only see the layers permitted by the GeoServer assigned to your account and your role on that GeoServer.
 
 ![Add Print Registered Tab](../assets/images/workspace/map-management-print-registered.png)
 
@@ -243,7 +243,7 @@ The **Edit** action reopens the print configuration form, where you can change a
 
 Clicking the **Delete** action permanently removes the print configuration from the map.
 
-### Preview
+### Preview Map
 
 The **Preview** action opens the map in the Map Viewer, exactly as an end user sees it when loading the map from the front page. The viewer and its tools are documented in the end-user manual:
 
