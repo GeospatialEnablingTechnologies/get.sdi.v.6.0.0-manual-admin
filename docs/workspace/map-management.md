@@ -243,6 +243,12 @@ The **Edit** action reopens the print configuration form, where you can change a
 
 Clicking the **Delete** action permanently removes the print configuration from the map.
 
+### Preview
+
+The **Preview** action opens the map in the Map Viewer, exactly as an end user sees it when loading the map from the front page. The viewer and its tools are documented in the end-user manual:
+
+* [Map Viewer overview](https://geospatialenablingtechnologies.github.io/get.sdi.v.6.0.0-manual/map/)
+
 ### Delete Map
 
 Clicking the **Delete** action permanently removes the map from the workspace.
