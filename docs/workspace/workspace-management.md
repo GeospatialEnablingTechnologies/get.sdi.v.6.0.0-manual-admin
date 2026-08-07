@@ -20,8 +20,8 @@ Click **Create** to create the workspace.
 
 Clicking a workspace opens its content view, where the workspace's **name** and **description** are displayed. The content view is separated into two tabs:
 
-* **Maps:** The maps belonging to the workspace.
-* **Dashboards:** The dashboards belonging to the workspace.
+* **Maps:** The maps belonging to the workspace (see [Map Management](map-management.md)).
+* **Dashboards:** The dashboards belonging to the workspace (see [Dashboard Management](dashboard-management.md)).
 
 ![Workspace Content View](../assets/images/workspace/workspace-management-content-view.png)
 
@@ -35,7 +35,7 @@ From the content view, the following actions are available for the workspace:
 | ![Edit icon](../assets/icons/pencil.png) | **[Edit](#edit)** | Modify the workspace's details. |
 | ![Delete icon](../assets/icons/trash-2.png) | **[Delete](#delete)** | Permanently remove the workspace from the platform. |
 
-### Workspace Users
+### Users
 
 The **Workspace Users** action opens the workspace user management form. At the top is a dropdown for adding users to the workspace, followed by a list of the current workspace members. Each member is shown with their **Name**, **Surname**, and **email address**, and can be removed from the workspace by clicking the trashcan icon next to their entry.
 

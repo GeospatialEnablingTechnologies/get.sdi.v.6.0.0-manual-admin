@@ -74,3 +74,4 @@ nav:
     - Geoserver Management: geoserver/geoserver-management.md
   - Workspace:
     - Workspace Management: workspace/workspace-management.md
+    - Map Management: workspace/map-management.md
