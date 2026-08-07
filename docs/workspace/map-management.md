@@ -143,7 +143,105 @@ Clicking the **Delete** action permanently removes the map event from the map.
 
 ### Excerpt Print Configuration
 
-TBD
+The **Excerpt Print Configuration** action configures the print excerpts available for the map. Clicking it opens the print configurations drawer, which lists all configurations created for the map, each showing its **name** and the **layer** it corresponds to.
+
+As with map events, the order of the configurations in this list can be changed by dragging them within the list.
+
+![Print Configurations Drawer](../assets/images/workspace/map-management-print-drawer.png)
+
+#### Creating a Print Configuration
+
+To create a print configuration, click the **Add Print** button at the top right of the list. This opens the Add Print form.
+
+Start by entering the configuration's title and index layer:
+
+* **Title (EN):** The configuration title in English.
+* **Title (EL):** The configuration title in Greek.
+* **Index layer (GetFeatureInfo):** The layer queried to identify the printed feature.
+
+The GeoServer source for the index layer is configured using one of two tabs, **Registered** or **Custom URL**.
+
+##### Registered
+
+The **Registered** tab lets you select from the available registered [GeoServers](geoserver-management.md) and then choose one of its layers:
+
+* **GeoServer:** Select a GeoServer.
+* **Layer name:** Select a layer.
+
+!!! note
+
+    As with map events, layer access for registered GeoServers is role-based, you only see the layers permitted by the GeoServer assigned to your account and your role on that GeoServer.
+
+![Add Print Registered Tab](../assets/images/workspace/map-management-print-registered.png)
+
+##### Custom URL
+
+The **Custom URL** tab lets you type the URL of a GeoServer (ending in `/geoserver`) and select one of its publicly available layers.
+
+![Add Print Custom URL Tab](../assets/images/workspace/map-management-print-custom-url.png)
+
+##### Excerpt Layer
+
+The excerpt layer provides the map image for the printout.
+
+!!! note
+
+    Leave the **Service** / **Layer** empty to use the index layer. If the layer name comes from a feature property, set the **Layer-name field** instead.
+
+* **Layer-name field** *(optional)*: The feature property to read the layer name from.
+* **WMS Service URL** *(optional)*: The WMS service URL for the excerpt layer.
+* **Fixed layer name** *(optional)*: A fixed layer name to use for the excerpt.
+
+##### Basemap
+
+* **Type:** The basemap to render beneath the excerpt (e.g. *None*).
+
+##### Scale & Page
+
+* **Scale from:** How the print scale is determined (e.g. *Fixed value*).
+* **Scale (denominator):** The scale denominator to use.
+* **Paper size:** The output paper size (e.g. *A4*).
+* **Orientation:** The page orientation (e.g. *Portrait*).
+
+##### Table Fields
+
+Select the feature fields to include in the printout's table.
+
+##### Texts
+
+Configure the textual content of the printout. Text fields are provided in both required languages (EN / EL):
+
+* **Disclaimer text (EN / EL):** Supports `{field}` placeholders.
+* **Header title (EN / EL)**
+* **Header subtitle (EN / EL)**
+* **Logo URL** *(optional)*
+* **Organization (footer) (EN / EL)**
+
+##### Legend *(optional)*
+
+* **Legend WMS Service URL:** The WMS service URL for the legend.
+* **Legend Layer name:** The layer whose legend is displayed.
+
+![Add Print Form](../assets/images/workspace/map-management-print-add-form.png)
+
+#### Print Configuration Actions
+
+Each entry in the print configurations drawer provides the following actions:
+
+| Icon | Action | Description |
+| :---: | :--- | :--- |
+| ![Edit icon](../assets/icons/pencil.png) | **[Edit](#edit-print-configuration)** | Modify the print configuration. |
+| ![Delete icon](../assets/icons/trash-2.png) | **[Delete](#delete-print-configuration)** | Permanently remove the print configuration from the map. |
+
+##### Edit Print Configuration
+
+The **Edit** action reopens the print configuration form, where you can change any of its settings.
+
+![Edit Print Configuration Form](../assets/images/workspace/map-management-print-edit-form.png)
+
+##### Delete Print Configuration
+
+Clicking the **Delete** action permanently removes the print configuration from the map.
 
 ### Delete Map
 
