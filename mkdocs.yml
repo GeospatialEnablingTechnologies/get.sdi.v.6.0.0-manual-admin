@@ -72,3 +72,5 @@ nav:
     - User Settings: user/user-settings.md
   - Geoserver:
     - Geoserver Management: geoserver/geoserver-management.md
+  - Workspace:
+    - Workspace Management: workspace/workspace-management.md
