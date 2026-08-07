@@ -75,3 +75,4 @@ nav:
   - Workspace:
     - Workspace Management: workspace/workspace-management.md
     - Map Management: workspace/map-management.md
+    - Dashboard Management: workspace/dashboard-management.md
